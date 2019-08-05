@@ -1,0 +1,34 @@
+nav {
+    width: 100vw;
+    height: 5vh;
+    background-color: #7BAFD4;
+    margin: 0;
+}
+
+nav button {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+nav ul li {
+    text-align: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+nav ul li a:hover {
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0;
+}

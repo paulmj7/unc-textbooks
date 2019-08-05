@@ -1,0 +1,16 @@
+extends templates/layout.pug
+
+block content
+    h1 Register
+    form(action='/register', method='POST')
+        h3 First Name
+        input(type='text', name='first')
+        h3 Last Name
+        input(type='text', name='last')
+        h3 Email address
+        input(type='text', name='email')
+        h3 Password
+        input(type='password', name='password')
+        h3 Confirm Password
+        input(type='password', name='confirmPass')
+        input(type='submit')
